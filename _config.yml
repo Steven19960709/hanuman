@@ -2,9 +2,9 @@
 title: WEB-连接世界
 description: leunggabou is a minimal yet powerful Jekyll theme for your blogs and websites.
 cover: assets/images/img/home-bg.jpg
-logo: assets/images/logo.png
-favicon: assets/images/img/favicon.png
-# baseurl: "/leunggabou/" # the subpath of your site, e.g. /blog/ or / for root
+logo: assets/images/img/home-bg.jpg
+favicon: assets/images/img/favicon.ico
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://leunggabou.com" # the base hostname & protocol for your site
 lean_cloud :
   app_id   :  h0VLBqXqt7BQzRvaRk9fUWBs-gzGzoHsz
@@ -45,10 +45,10 @@ lsi: False
 username: "Steven19960709" #github username
 repo: leunggabou #github repository
 branch: master #branch
-relative_source: ../leunggabou/ #source directory
-destination: ../leunggabou/ #destination directory
+relative_source: '' #source directory
+destination: '' #destination directory
 production_url:  https://leunggabou.com/
-source_url:  https://github.com/Steven19960709.comn #source repository url
+source_url:  https://github.com/Steven19960709.com #source repository url
 
 exclude:
   - README.md
