@@ -1,24 +1,28 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
-cover: assets/images/radhakrishna.jpg
+title: WEB-连接世界
+description: leunggabou is a minimal yet powerful Jekyll theme for your blogs and websites.
+cover: assets/images/img/home-bg.jpg
 logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
-
+favicon: assets/images/img/favicon.png
+baseurl: "/leunggabou/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://leunggabou.com" # the base hostname & protocol for your site
+lean_cloud :
+  app_id   :  h0VLBqXqt7BQzRvaRk9fUWBs-gzGzoHsz
+  app_key  :  0n7pgyymgltq2x7m1k2p2Drx
 # Social
 facebook: facebook
 twitter: twitter
-github:  github
+github_username:    "Steven19960709"
 
 #Additional Pages
 about: about
 contact: contact
 privacy-policy: privacy-policy
-
-
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 10
+anchorjs: true  
 permalink: /:title
 
 
@@ -26,7 +30,7 @@ permalink: /:title
 analytics_id: ""
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
 kramdown:
   parse_block_html: true
@@ -38,13 +42,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: "Steven19960709" #github username
+repo: leunggabou #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+relative_source: ../leunggabou/ #source directory
+destination: ../leunggabou/ #destination directory
+production_url:  https://leunggabou.com/
+source_url:  https://github.com/Steven19960709.comn #source repository url
 
 exclude:
   - README.md
