@@ -4,7 +4,7 @@ description: leunggabou is a minimal yet powerful Jekyll theme for your blogs an
 cover: assets/images/img/home-bg.jpg
 logo: assets/images/logo.png
 favicon: assets/images/img/favicon.png
-baseurl: "/leunggabou/" # the subpath of your site, e.g. /blog/ or / for root
+# baseurl: "/leunggabou/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://leunggabou.com" # the base hostname & protocol for your site
 lean_cloud :
   app_id   :  h0VLBqXqt7BQzRvaRk9fUWBs-gzGzoHsz
